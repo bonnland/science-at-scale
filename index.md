@@ -1,4 +1,4 @@
-## CAM6 Data Assimilation Research Testbed (DART) Reanalysis Cloud-Optimized Dataset
+# CAM6 Data Assimilation Research Testbed (DART) Reanalysis Cloud-Optimized Dataset
 
 
 ## Overview
@@ -13,9 +13,12 @@ This is a cloud-hosted subset of the CAM6 Data Assimilation Research Testbed (DA
 - Amazon resource name: **arn:aws:s3:::ncar-dart-cam6**
 - Bucket contents list: https://ncar-dart-cam6.s3.amazonaws.com/
 
-## Data
 
-### Zarr format
+## Data Characteristics
+
+(KR)
+
+## Zarr format
 
 The LENS data on AWS are structured according to the Zarr storage format. There are independent Zarr stores for each time frequency/variable combination. The naming convention is: {frequency}/{variable}.zarr where:
 
@@ -39,9 +42,6 @@ The table shows available Zarr stores, including the variables, time ranges, and
 |CLDLIQ|Grid box averaged cloud liquid amount|kg/kg|mass_fraction_of_cloud_liquid_water_in_air|32|atm|global|2011-01-03T00:00:00|2019-12-30T00:00:00|weekly|s3://ncar-dart-cam6/weekly/CLDLIQ.zarr|
 
 
-### Data Characteristics
-
-(KR)
 
 ## Notebook Examples
 
