@@ -17,7 +17,7 @@ This is a cloud-hosted subset of the Community Atmosphere Model version 6 (CAM6)
 
 - Variables `PS, T, US, VS, Q, CLDLIQ, CLDICE` are atmospheric fields available from each ensemble member of the Community Atmosphere Model (CAM6).  They provide weekly context for the other, more frequent, plant growth variables `ER, HR, TSA, EFLX_LH_TOT`, which come from the Community Land Model component of CESM.  Ensemble member 1 of both the atmospheric and land variables were written from member 1 of the assimilation, and so forth for each member.  
 - Depending on user interest, we may add more plant growth variables which include Plant Functional Type (PFT) variables 
-`GPP, GRAINC_TO_FOOD, GSSHALN, GSSUNLN, NPP, NPP_NUPTAKE, PLANT_NDEMAND, QVEGT, TLAI`. Please contact us at cisl-aws-lens@ucar.edu if you are interested in using the PFT data.
+`GPP, GRAINC_TO_FOOD, GSSHALN, GSSUNLN, NPP, NPP_NUPTAKE, PLANT_NDEMAND, QVEGT, TLAI`. Please contact us at [cisl-aws-lens@ucar.edu](mailto:cisl-aws-lens@ucar.edu) if you are interested in using the PFT data.
 
 
 ## Zarr format
@@ -59,5 +59,5 @@ The table shows available Zarr stores, including the variables, time ranges, and
 
 Data are freely available and reusable under the terms of the CC-BY-4.0 license. See Terms of Use. If you use these data, we request that you provide attribution in any derived products. The original, complete DART Reanalysis dataset and the AWS-hosted subset have different DOIs (Digital Object Identifiers) to reflect their differing scope and format.
 
-If you have questions or want to submit a data request, please reach out to us on our [GitHub Discussions](https://github.com/NCAR/ncar-dart-cam6/issues) page or via email: cisl-aws-lens@ucar.edu.
+If you have questions or want to submit a data request, please reach out to us on our [GitHub Discussions](https://github.com/NCAR/ncar-dart-cam6/issues) page or via email: [cisl-aws-lens@ucar.edu](mailto:cisl-aws-lens@ucar.edu).
 
