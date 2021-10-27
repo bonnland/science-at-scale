@@ -15,9 +15,9 @@ This is a cloud-hosted subset of the Community Atmosphere Model version 6 (CAM6)
 
 ## Data Characteristics
 
-- Variables (PS, T, US, VS, Q, CLDLIQ, CLDICE) are atmospheric fields available from each ensemble member of the Community Atmosphere Model (CAM6).  They provide weekly context for the other, more frequent, plant growth variables (ER, HR, TSA, EFLX_LH_TOT), which come from the Community Land Model component of CESM.  Ensemble member 1 of both the atmospheric and land variables were written from member 1 of the assimilation, and so forth for each member.  
-- Depending on user interest, we may add more plant growth variables which include Plant Functional Type (PFT) information 
-(GPP, GRAINC_TO_FOOD, GSSHALN, GSSUNLN, NPP, NPP_NUPTAKE, PLANT_NDEMAND, QVEGT, TLAI). Please contact us at cisl-aws-lens@ucar.edu if you are interested in using the PFT data.
+- Variables `PS, T, US, VS, Q, CLDLIQ, CLDICE` are atmospheric fields available from each ensemble member of the Community Atmosphere Model (CAM6).  They provide weekly context for the other, more frequent, plant growth variables `ER, HR, TSA, EFLX_LH_TOT`, which come from the Community Land Model component of CESM.  Ensemble member 1 of both the atmospheric and land variables were written from member 1 of the assimilation, and so forth for each member.  
+- Depending on user interest, we may add more plant growth variables which include Plant Functional Type (PFT) variables 
+`GPP, GRAINC_TO_FOOD, GSSHALN, GSSUNLN, NPP, NPP_NUPTAKE, PLANT_NDEMAND, QVEGT, TLAI`. Please contact us at cisl-aws-lens@ucar.edu if you are interested in using the PFT data.
 
 
 ## Zarr format
@@ -50,9 +50,9 @@ The table shows available Zarr stores, including the variables, time ranges, and
 
 ## Citations
 
-- AWS-hosted subset: https://doi.org/10.26024/sprq-2d04 Bonnlander, B., and Raeder, K., (2019), “CAM6 Data Assimilation Research Testbed (DART) Reanalysis Cloud-Optimized Dataset,” UCAR/NCAR Computational and Informations Systems Lab
-- Original dataset: https://doi.org/10.5065/JG1E-8525 Data Assimilation Research Section/Computational & Information Systems/National Center for Atmospheric Research/University Corporation for Atmospheric Research. 2020. CAM6 Data Assimilation Research Testbed (DART) Reanalysis. Research Data Archive at the National Center for Atmospheric Research, Computational and Information Systems Laboratory. https://doi.org/10.5065/JG1E-8525. Accessed 27 Oct 2021
-- The Scientific Reports description of the Original dataset: https://doi.org/10.1038/s41598-021-92927-0 Raeder, K., Hoar, T.J., El Gharamti, M. et al (2021), "A new CAM6 + DART reanalysis with surface forcing from CAM6 to other CESM models", Sci Rep 11, 16384
+- AWS-hosted subset: https://doi.org/10.26024/sprq-2d04  Bonnlander, B., and Raeder, K., (2019), “CAM6 Data Assimilation Research Testbed (DART) Reanalysis Cloud-Optimized Dataset,” UCAR/NCAR Computational and Informations Systems Lab.
+- Original dataset: https://doi.org/10.5065/JG1E-8525  Data Assimilation Research Section/Computational & Information Systems/National Center for Atmospheric Research/University Corporation for Atmospheric Research. 2020. CAM6 Data Assimilation Research Testbed (DART) Reanalysis. Research Data Archive at the National Center for Atmospheric Research, Computational and Information Systems Laboratory. Accessed 27 Oct 2021.
+- The Scientific Reports description of the Original dataset: https://doi.org/10.1038/s41598-021-92927-0  Raeder, K., Hoar, T.J., El Gharamti, M. et al (2021), "A new CAM6 + DART reanalysis with surface forcing from CAM6 to other CESM models", Sci Rep 11, 16384.
 - The DART Software: https://docs.dart.ucar.edu
 
 ## Contact
