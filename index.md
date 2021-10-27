@@ -10,7 +10,7 @@ This is a cloud-hosted subset of the Community Atmosphere Model version 6 (CAM6)
 - S3 bucket name: **ncar-dart-cam6**
 - Region: **us-west-2** region
 - Amazon resource name: **arn:aws:s3:::ncar-dart-cam6**
-- Bucket contents list: https://ncar-dart-cam6.s3.amazonaws.com/
+- Bucket contents list: [https://ncar-dart-cam6.s3.amazonaws.com/](https://ncar-dart-cam6.s3.amazonaws.com/)
 
 
 ## Data Characteristics
@@ -46,14 +46,14 @@ The table shows available Zarr stores, including the variables, time ranges, and
 ## Notebook Examples
 
 - Jupyter Notebook creating a spaghetti plot of ensemble member values for any chosen variable, written in Python:  
-  https://github.com/NCAR/ncar-dart-cam6/blob/main/notebooks/plot-ensemble-values.ipynb
+  [https://ncar-dart-cam6.s3.amazonaws.com/](https://ncar-dart-cam6.s3.amazonaws.com/)
 
 ## Citations
 
-- AWS-hosted subset: https://doi.org/10.26024/sprq-2d04  Bonnlander, B., and Raeder, K., (2019), “CAM6 Data Assimilation Research Testbed (DART) Reanalysis Cloud-Optimized Dataset,” UCAR/NCAR Computational and Informations Systems Lab.
-- Original dataset: https://doi.org/10.5065/JG1E-8525  Data Assimilation Research Section/Computational & Information Systems/National Center for Atmospheric Research/University Corporation for Atmospheric Research. 2020. CAM6 Data Assimilation Research Testbed (DART) Reanalysis. Research Data Archive at the National Center for Atmospheric Research, Computational and Information Systems Laboratory. Accessed 27 Oct 2021.
-- The Scientific Reports description of the Original dataset: https://doi.org/10.1038/s41598-021-92927-0  Raeder, K., Hoar, T.J., El Gharamti, M. et al (2021), "A new CAM6 + DART reanalysis with surface forcing from CAM6 to other CESM models", Sci Rep 11, 16384.
-- The DART Software: https://docs.dart.ucar.edu
+- AWS-hosted subset: [https://doi.org/10.26024/sprq-2d04](https://doi.org/10.26024/sprq-2d04)  Bonnlander, B., and Raeder, K., (2019), “CAM6 Data Assimilation Research Testbed (DART) Reanalysis Cloud-Optimized Dataset,” UCAR/NCAR Computational and Informations Systems Lab.
+- Original dataset: [https://doi.org/10.5065/JG1E-8525](https://doi.org/10.5065/JG1E-8525)  Data Assimilation Research Section/Computational & Information Systems/National Center for Atmospheric Research/University Corporation for Atmospheric Research. 2020. CAM6 Data Assimilation Research Testbed (DART) Reanalysis. Research Data Archive at the National Center for Atmospheric Research, Computational and Information Systems Laboratory. Accessed 27 Oct 2021.
+- The Scientific Reports description of the Original dataset: [https://doi.org/10.1038/s41598-021-92927-0](https://doi.org/10.1038/s41598-021-92927-0)  Raeder, K., Hoar, T.J., El Gharamti, M. et al (2021), "A new CAM6 + DART reanalysis with surface forcing from CAM6 to other CESM models", Sci Rep 11, 16384.
+- The DART Software: [https://docs.dart.ucar.edu](https://docs.dart.ucar.edu)
 
 ## Contact
 
