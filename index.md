@@ -3,7 +3,7 @@
 
 ## Overview
 
-This is a cloud-hosted subset of the Community Atmosphere Model version 6 (CAM6) Data Assimilation Research Testbed (DART) Reanalysis dataset. These data products are designed to facilitate a broad variety of research using the National Center for Atmospheric Research's Community Earth System Model (NCAR CESM), ranging from model evaluation to (ensemble) hindcasting, data assimilation experiments, and sensitivity studies. They come from an 80 member ensemble reanalysis of the global troposphere and stratosphere using DART and CAM6 from CESM2.1. The data products represent the actual states of the atmosphere from 2011 through 2020 at a 1 degree horizontal resolution and 6 hourly frequency. Each ensemble member is an equally likely description of the atmosphere, and is also consistent with dynamics and physics of CAM6. This dataset is derived from the "CAM6 Data Assimilation Research Testbed (DART) Reanalysis", [DOI:10.5065/JG1E-8525](https://doi.org/10.5065/JG1E-8525).
+This is a cloud-hosted subset of the Community Atmosphere Model version 6 (CAM6) Data Assimilation Research Testbed (DART) Reanalysis dataset. These data products are designed to facilitate a broad variety of research using the National Center for Atmospheric Research's Community Earth System Model (NCAR CESM), ranging from model evaluation to (ensemble) hindcasting, data assimilation experiments, and sensitivity studies.  They come from an 80 member ensemble reanalysis of the global troposphere and stratosphere using DART and CAM6 from CESM2.1.  The data products represent the actual states of the atmosphere from 2011 through 2020 at a 1 degree horizontal resolution and 6 hourly frequency.  Each ensemble member is an equally likely description of the atmosphere, and is also consistent with dynamics and physics of CAM6.  This dataset is derived from the "CAM6 Data Assimilation Research Testbed (DART) Reanalysis", [DOI:10.5065/JG1E-8525](https://doi.org/10.5065/JG1E-8525).
 
 ## Accessing CESM DART Data on AWS
 
@@ -15,7 +15,7 @@ This is a cloud-hosted subset of the Community Atmosphere Model version 6 (CAM6)
 
 ## Data Characteristics
 
-- Variables `PS, T, US, VS, Q, CLDLIQ, CLDICE` are atmospheric fields available from each ensemble member of the Community Atmosphere Model (CAM6).  They provide weekly context for the other, more frequent, plant growth variables `ER, HR, TSA, EFLX_LH_TOT`, which come from the Community Land Model component of CESM.  Ensemble member 1 of both the atmospheric and land variables were written from member 1 of the assimilation, and so forth for each member.  
+- Variables `PS, T, US, VS, Q, CLDLIQ, CLDICE` are atmospheric fields available from each ensemble member of the Community Atmosphere Model (CAM6).  They provide weekly context for the other, more frequent, plant growth variables `ER, HR, TSA, EFLX_LH_TOT`, which come from the Community Land Model component of CESM.   Ensemble member 1 of both the atmospheric and land variables were written from member 1 of the assimilation, and so forth for each member.  
 - Depending on user interest, we may add more plant growth variables which include Plant Functional Type (PFT) variables 
 `GPP, GRAINC_TO_FOOD, GSSHALN, GSSUNLN, NPP, NPP_NUPTAKE, PLANT_NDEMAND, QVEGT, TLAI`. Please contact us at [cisl-aws-lens@ucar.edu](mailto:cisl-aws-lens@ucar.edu) if you are interested in using the PFT data.
 
